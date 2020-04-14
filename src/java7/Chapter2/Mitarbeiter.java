@@ -5,13 +5,13 @@ public class Mitarbeiter {
     String m_vorname;
     int m_gehalt;
 
-    Mitarbeiter(String name, String vorname, int gehalt) {
+    public Mitarbeiter(String name, String vorname, int gehalt) {
         m_name = name;
         m_vorname = vorname;
         m_gehalt = gehalt;
     }
 
-    void datenAusgeben() {
+    public void datenAusgeben() {
         System.out.println("\n");
         System.out.println("Имя      : " + m_name);
         System.out.println("Фамилия  : " + m_vorname);
