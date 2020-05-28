@@ -1,8 +1,6 @@
-package headfirstjava;
+package headfirstjava.chapter_1;
 
-import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
 //стр. 33
 public class Party {

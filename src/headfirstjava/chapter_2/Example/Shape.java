@@ -1,4 +1,4 @@
-package headfirstjava.Example;
+package headfirstjava.chapter_2.Example;
 
 abstract class Shape {
 

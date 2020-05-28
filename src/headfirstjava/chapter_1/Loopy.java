@@ -1,4 +1,4 @@
-package headfirstjava;
+package headfirstjava.chapter_1;
 
 //Пример цикла while
 //стр. 42

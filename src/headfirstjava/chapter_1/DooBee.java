@@ -1,4 +1,4 @@
-package headfirstjava;
+package headfirstjava.chapter_1;
 
 public class DooBee {
     public static void main(String[] args) {

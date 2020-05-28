@@ -1,4 +1,4 @@
-package headfirstjava;
+package headfirstjava.chapter_1;
 
 //все никак не запомню...
 public class Test {

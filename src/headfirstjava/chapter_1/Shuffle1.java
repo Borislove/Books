@@ -1,4 +1,4 @@
-package headfirstjava;
+package headfirstjava.chapter_1;
 
 //  a-b c-d
 public class Shuffle1 {
