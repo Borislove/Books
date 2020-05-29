@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 //стр. 202
-public class Player {
+class Player {
     private String name;
     private double average;
 
