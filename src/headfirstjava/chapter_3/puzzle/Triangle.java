@@ -8,10 +8,6 @@ public class Triangle {
     public static void main(String[] args) {
 
         Triangle[] ta = new Triangle[4];
-        ta[0] = new Triangle();
-        ta[1] = new Triangle();
-        ta[2] = new Triangle();
-        ta[3] = new Triangle();
 
         int x = 0;
 
