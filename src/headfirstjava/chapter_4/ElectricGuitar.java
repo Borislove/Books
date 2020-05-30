@@ -6,27 +6,27 @@ public class ElectricGuitar {
     int numOfPickups;
     boolean rockStarUsesIt;
 
-    public String getBrand() {
+    String getBrand() {
         return brand;
     }
 
-    public void setBrand(String aBrand) {
+    void setBrand(String aBrand) {
         this.brand = aBrand;
     }
 
-    public int getNumOfPickups() {
+    int getNumOfPickups() {
         return numOfPickups;
     }
 
-    public void setNumOfPickups(int num) {
+    void setNumOfPickups(int num) {
         this.numOfPickups = num;
     }
 
-    public boolean isRockStarUsesIt() {
+    boolean isRockStarUsesIt() {
         return rockStarUsesIt;
     }
 
-    public void setRockStarUsesIt(boolean yesOrNo) {
+    void setRockStarUsesIt(boolean yesOrNo) {
         this.rockStarUsesIt = yesOrNo;
     }
 }
