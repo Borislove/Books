@@ -1,5 +1,7 @@
 package kettle;
 
+import kettle.chapter_8.PartTimeEmploee;
+
 public class PartTimeWithOver extends PartTimeEmploee {
 
     @Override
