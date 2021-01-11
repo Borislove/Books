@@ -1,5 +1,6 @@
 package headfirstjava.chapter_4;
 
+//инкапсуляция на примере
 public class GoodDog {
 
     private int size;

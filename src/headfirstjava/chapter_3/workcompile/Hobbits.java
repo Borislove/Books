@@ -18,7 +18,6 @@ public class Hobbits {
             if (z == 2) {
                 h[z].name = "Сэм";
             }
-
             System.out.print(h[z].name + " - ");
             System.out.println("имя хорошего хоббита");
         }

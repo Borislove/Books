@@ -1,5 +1,6 @@
 package headfirstjava.chapter_2.guess_game;
 
+//класс хранит число, всего 3 экземпляра, для каждого новое, шаблон, при вызове методе guess - генерируется случайное число
 public class Player {
     int number = 0; //сдесь хранится вариант числа
 

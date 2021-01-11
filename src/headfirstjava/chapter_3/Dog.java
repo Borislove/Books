@@ -7,7 +7,6 @@ public class Dog {
     public static void main(String[] args) {
 
         //Создаем объект Dog и получаем к нему доступ
-
         Dog dog1 = new Dog();
         dog1.bark();
         dog1.name = "Барт";
@@ -20,7 +19,6 @@ public class Dog {
         myDogs[2] = dog1;
 
         //теперь получаем доступ к объектам Dog с помощью ссылок из массива
-
         myDogs[0].name = "Фред";
         myDogs[1].name = "Джордж";
 

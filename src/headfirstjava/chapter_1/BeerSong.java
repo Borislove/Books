@@ -1,7 +1,7 @@
 package headfirstjava.chapter_1;
 
 //стр. 44
-public class BeerSong {
+public class  BeerSong {
     public static void main(String[] args) {
 
         int beerNum = 99;

@@ -29,4 +29,11 @@ public class ElectricGuitar {
     void setRockStarUsesIt(boolean yesOrNo) {
         this.rockStarUsesIt = yesOrNo;
     }
+
+    public static void main(String[] args) {
+
+        ElectricGuitar eg = new ElectricGuitar();
+        eg.setBrand("Brand #1");
+        System.out.println(eg.getBrand());
+    }
 }

@@ -5,7 +5,7 @@ import java.awt.*;
 //стр. 33
 public class Party {
 
-    public static void buildinvite() {
+    public static void buildInvite() {
         Frame f = new Frame();
 
         Label l = new Label("Вечеринка у Тима");
@@ -20,17 +20,18 @@ public class Party {
         p.add(b);
         p.add(c);
         //размеры
-        f.setSize(300, 200);
+        //   f.setSize(300, 200);
         //упаковка - компоновка
         f.pack();
         //центр
         f.setLocationRelativeTo(null);
         //видимость окна
         f.setVisible(true);
+
     }
 
     public static void main(String[] args) {
-        Party.buildinvite();
+        Party.buildInvite();
     }
 }
 

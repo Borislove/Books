@@ -1,5 +1,6 @@
 package headfirstjava.chapter_2.Example;
 
+//родительский класс
 abstract class Shape {
 
     public void rotate() {
@@ -10,7 +11,7 @@ abstract class Shape {
         System.out.println("Воспроизвести звук");
     }
 
-    public static void name(String str) {
+    public void name(String str) {
         System.out.println(str);
     }
 

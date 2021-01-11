@@ -1,6 +1,5 @@
 package headfirstjava.chapter_2.guess_game;
 
-
 //GuessGame содержит три переменных экземпляра для трех объектов Player
 public class GuessGame {
     Player p1;
@@ -13,7 +12,7 @@ public class GuessGame {
         p2 = new Player();
         p3 = new Player();
 
-        //Объявлем три переменные для хранения вариантов от каждого игрока.
+        //Объявляем три переменные для хранения вариантов от каждого игрока.
         int guessp1 = 0;
         int guessp2 = 0;
         int guessp3 = 0;

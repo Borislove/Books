@@ -26,7 +26,7 @@ class EchoTestDrive {
             if (x > 0) {
                 e2.count = e2.count + e1.count;
             }
-            x = x + 1;
+            x++;
         }
         System.out.println(e2.count);
     }

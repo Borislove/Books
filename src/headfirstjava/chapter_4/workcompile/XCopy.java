@@ -9,7 +9,7 @@ public class XCopy {
 
         int y = x.go(orig);
 
-        System.out.println(orig + " " + y);
+        System.out.println(orig + " " + y);  //42 + "" + go(42*2)
     }
 
     int go(int arg) {
