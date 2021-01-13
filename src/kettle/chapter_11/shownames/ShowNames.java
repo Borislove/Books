@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 //стр. 247
-//Использование коллекции ArrayList
+//Использование коллекции Egg
 public class ShowNames {
 
     public static void main(String[] args) throws IOException {
