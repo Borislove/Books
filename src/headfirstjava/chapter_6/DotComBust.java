@@ -1,12 +1,10 @@
-/*
 package headfirstjava.chapter_6;
 
-import headfirstjava.chapter_5.GameHelper;
+import java.util.ArrayList;
 
 public class DotComBust {
-
     private GameHelper helper = new GameHelper();
-    private ArrayList<DotCom> dotComList = new ArrayList<DotCom>;
+    private ArrayList<DotCom> dotComList = new ArrayList<DotCom>();
     private int numOfGuesses = 0;
 
     private void setUpGame() {
@@ -63,7 +61,6 @@ public class DotComBust {
             System.out.println("Это заняло у вас довольно много времени. " + numOfGuesses + "попыток.");
         System.out.println("Рыбы водят хороводы вокруг ваших вложений.");
     }
-}
 
 
     public static void main(String[] args) {
@@ -71,4 +68,4 @@ public class DotComBust {
         game.setUpGame();
         game.startPlaying();
     }
-}*/
+}

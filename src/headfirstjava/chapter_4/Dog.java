@@ -3,7 +3,6 @@ package headfirstjava.chapter_4;
 public class Dog {
 
     int size;
-
     String name;
 
     void bark() {

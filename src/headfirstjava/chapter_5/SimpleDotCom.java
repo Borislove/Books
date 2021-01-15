@@ -9,9 +9,9 @@ public class SimpleDotCom {
         locationCells = locs;
     }
 
-    public String checkYourself(String strngGuess) {
+    public String checkYourself(String stringGuess) {
         //преобразуем тип String в int
-        int guess = Integer.parseInt(strngGuess);
+        int guess = Integer.parseInt(stringGuess);
         //переменная для хранение результата
         String result = "Мимо";
 
@@ -35,7 +35,6 @@ public class SimpleDotCom {
 
         //создаем переменную, чтобы следить за кол-ом ходов пользователя
         int numOfGuesses=0;
-
 
         GameHelper helper = new GameHelper();
 

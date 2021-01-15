@@ -6,6 +6,12 @@ public class DotCom {
 
     private ArrayList<String> locationCells;
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    private String name;
+
     public void setLocationCells(ArrayList<String> loc) {
         locationCells = loc;
     }
