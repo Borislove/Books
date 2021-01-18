@@ -1,6 +1,6 @@
 package headfirstjava.chapter_8;
 
-public class MyDoList {
+public class MyDogList {
 
     private Dog[] dogs = new Dog[5];
     private int nextIndex = 0;
@@ -14,7 +14,6 @@ public class MyDoList {
     }
 
     public static void main(String[] args) {
-
     }
 }
 
