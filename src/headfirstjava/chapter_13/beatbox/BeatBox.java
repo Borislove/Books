@@ -45,21 +45,11 @@ public class BeatBox {
         buttonBox.add(stop);
 
         JButton upTempo = new JButton("Tempo Up");
-        upTempo.addActionListener(new MyUpTempoListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
+        upTempo.addActionListener(new MyUpTempoListener());
         buttonBox.add(upTempo);
 
         JButton downTempo = new JButton("Tempo Down");
-        downTempo.addActionListener(new MyDownTempoListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-
-            }
-        });
+        downTempo.addActionListener(new MyDownTempoListener());
         buttonBox.add(downTempo);
 
         Box nameBox = new Box(BoxLayout.Y_AXIS);
@@ -149,16 +139,16 @@ public class BeatBox {
         }
     }
 
-    public abstract class MyUpTempoListener implements ActionListener {
-        public void actionPerformed(ActionListener a) {
+    public class MyUpTempoListener implements ActionListener {
+        public void actionPerformed(ActionEvent a) {
             float tempoFactor = sequencer.getTempoFactor();
             //sequencer.setTempoFactor((float) tempoFactor * 1.03); //!!!
-            sequencer.setTempoFactor((float)(tempoFactor * 1.03));
+            sequencer.setTempoFactor((float) (tempoFactor * 1.03));
         }
     }
 
-    public abstract class MyDownTempoListener implements ActionListener {
-        public void actionPerformed(ActionListener a) {
+    public class MyDownTempoListener implements ActionListener {
+        public void actionPerformed(ActionEvent a) {
             float tempoFactor = sequencer.getTempoFactor();
             sequencer.setTempoFactor((float) ((float) tempoFactor * .97));
         }
