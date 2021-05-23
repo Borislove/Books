@@ -6,8 +6,8 @@ public class DateiSchreiben {
         // Файл ввода и вывода должен охраняться с помощью
         // конструкции try-catch
         try {
-            PrintWriter ausgabe = new PrintWriter("Test.txt");
-            // Test.txt - файл для вывода информации
+            PrintWriter ausgabe = new PrintWriter("TestEmployee.txt");
+            // TestEmployee.txt - файл для вывода информации
             String ware = "Тетрадь";
             double preis = 1.75;
             ausgabe.printf(" 1 " + ware + " стоит " + preis + " евро%n");

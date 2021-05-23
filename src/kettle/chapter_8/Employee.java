@@ -31,20 +31,17 @@ public class Employee {
         System.out.printf("Выплатить служащему %s ", name);
         System.out.printf("(%s) ***$", jobTitle);
         System.out.printf("%,.2f\n", amountPaid);
-
-        /*System.out.println(name);
-        System.out.println(jobTitle);
-        System.out.println(amountPaid);*/
     }
 }
 
 class DoPayroll {
 
     public static void main(String[] args) throws IOException {
-        Scanner diskScanner = new Scanner(new File("C:\\Users\\User\\IdeaProjects\\java1\\src\\Warehouse\\books\\kettle\\EmployeeInfo.txt"));
+        Scanner diskScanner = new Scanner(new File("src\\kettle\\EmployeeInfo.txt"));
         for (int empNum = 1; empNum <= 3; empNum++) {
             payOneEmployee(diskScanner);
         }
+        diskScanner.close();
     }
 
     static void payOneEmployee(Scanner aScanner) {

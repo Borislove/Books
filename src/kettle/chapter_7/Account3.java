@@ -41,8 +41,9 @@ class UseAccount3 {
         System.out.printf("$%4.2f\n", myInterest);
         System.out.printf("$%5.2f\n", myInterest);
         System.out.printf("$%3.2f\n", myInterest);
-        //System.out.printf("$%.2f $%2.f", myInterest, yourInterest);  //не работает
-        //System.out.printf("$%.2f\n" + myInterest);  //java.util.MissingFormatArgumentException: Format specifier '%.2f'
+        System.out.printf("$%.2f $%.2f", myInterest, yourInterest);
+        System.out.printf("$%.2f\n" , myInterest);
+
     }
 }
 

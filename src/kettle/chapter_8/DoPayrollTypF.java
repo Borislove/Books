@@ -1,6 +1,6 @@
 package kettle.chapter_8;
 
-//СЃС‚СЂ. 174
+//стр. 174
 
 import kettle.PartTimeWithOver;
 import kettle.chapter_8.FullTimeEmployee;
@@ -13,7 +13,7 @@ public class DoPayrollTypF {
         FullTimeEmployee ftEmployee = new FullTimeEmployee();
 
 
-        //РЁС‚Р°С‚РЅС‹Р№
+        //Штатный
         ftEmployee.setName("Golovastick");
         ftEmployee.setJobTitle("Gamer");
         ftEmployee.setWeeklySalary(1000.00);
@@ -22,14 +22,14 @@ public class DoPayrollTypF {
         ftEmployee.cutCheck(ftEmployee.findPaymentAmount());
         System.out.println();
 
-        //Р’РЅРµС€С‚Р°С‚РЅС‹Р№
+        //Внештатный
         PartTimeEmploee ptEmployee = new PartTimeEmploee();
         ptEmployee.setName("Stive");
         ptEmployee.setJobTitle("Milkman");
         ptEmployee.setHourlyRate(7.53);
         ptEmployee.cutCheck(ptEmployee.findPaymentAmount(10));
 
-        //Р’РЅРµС€С‚Р°С‚РЅС‹Р№, РЅРѕ РґСЂСѓРіРѕРµ РїСЂР°РІРёР»Рѕ
+        //Внештатный, но другое правило
         PartTimeWithOver ptoEmployee = new PartTimeWithOver();
         ptoEmployee.setName("Garry");
         ptoEmployee.setJobTitle("Balabol");
