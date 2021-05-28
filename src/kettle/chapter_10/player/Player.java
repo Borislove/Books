@@ -26,11 +26,11 @@ class Player {
     }
 
     public String getAverageString() {
-        DecimalFormat decFormate = new DecimalFormat();
-        decFormate.setMaximumIntegerDigits(0);
-        decFormate.setMinimumFractionDigits(3);
-        decFormate.setMinimumFractionDigits(3);
-        return decFormate.format(average);
+        DecimalFormat decFormat = new DecimalFormat();
+        decFormat.setMaximumIntegerDigits(0);
+        decFormat.setMinimumFractionDigits(3);
+        decFormat.setMinimumFractionDigits(3);
+        return decFormat.format(average);
     }
 }
 

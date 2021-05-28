@@ -37,7 +37,7 @@ public class MoneyFrame extends JFrame implements KeyListener, ItemListener, Mou
 
         setSize(300, 100);
         setVisible(true);
-        setLocation(null);
+        //setLocation(null);
     }
 
     void setTextOnLabel() {
