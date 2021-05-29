@@ -9,8 +9,10 @@ import java.sql.Statement;
 public class CreateTable {
     public static void main(String[] args) {
 
-        final String DRIVER = "org.apache.derby.jdbc.EmbeddedDriver";
-        final String CONNECTION = "jdbc:derby:AccountDatabase; create = true";
+        final String DRIVER =
+                "org.apache.derby.jdbc.EmbeddedDriver";
+        final String CONNECTION =
+                "jdbc:derby:AccountDatabase;create=true";
 
         try {
             Class.forName(DRIVER).newInstance();
